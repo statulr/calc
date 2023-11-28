@@ -13,7 +13,7 @@ void calculate_percentage()
 
     printw("Which of the following do you want to calculate:\n");
     printw("1. %% of Something\n");
-    printw("2. What %% is of something\n");
+    printw("2. Calculate %% of Whole\n");
     refresh();
 
     choice = getch() - '0';
