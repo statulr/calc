@@ -1,2 +1,5 @@
 # calc
-Calc is a calculator made in C
+Calc is a lightweight calculator for the terminal made in C
+
+
+Will do banner and images soon like I always do 😉
