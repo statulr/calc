@@ -7,11 +7,11 @@
 
 int main(int argc, char *argv[])
 {
-    if (argc == 2 && strcmp(argv[1], "-p") == 0)
-    {
-        calculate_percentage();
-        return 0;
-    }
+  if (argc == 2 && strncmp(argv[1], "-p", 2) == 0)
+{
+    calculate_percentage();
+    return 0;
+}
 
     if (argc != 2)
     {
