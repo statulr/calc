@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+#Build Files
+./src/calc 
+
 # Object files
 *.o
 *.ko
