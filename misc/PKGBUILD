@@ -2,7 +2,7 @@
 
 pkgname=aurc
 pkgenv=calc
-pkgver=1.0.0
+pkgver=BETA
 pkgrel=1
 pkgdesc="Calc is a lightweight calculator for the terminal made in C"
 PACKAGER=statulr
@@ -16,7 +16,7 @@ depends=(
   'base-devel'
 )
 source=("${pkgenv}-${pkgver}.tar.gz::https://github.com/statulr/calc/archive/${pkgver}.tar.gz")
-sha256sums=('on next commit') # needs to update the sha256sum for every git archive ${pkgver} tarball from ${source}
+sha256sums=('1c0baa0360b8e7e0066cf40afb0a0b40810af091c2abef790ff0dbef9eeee11b') # needs to update the sha256sum for every git archive ${pkgver} tarball from ${source}
 
 build() {
   cd ${pkgenv}-${pkgver}/src
