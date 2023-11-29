@@ -24,7 +24,7 @@ double divide(double operand1, double operand2)
     }
     else
     {
-        fprintf(stderr, "Error: Division by zero is not allowed.\n");
+        fprintf(stderr, "Error: Division by zero is not allowed. Result: undefned\n");
         return 0;
     }
 }
