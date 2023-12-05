@@ -1,6 +1,6 @@
 # Maintainer: Statulr <re@citra.lol>
 
-pkgname=aurc
+pkgname=calc
 pkgenv=calc
 pkgver=BETA
 pkgrel=1
