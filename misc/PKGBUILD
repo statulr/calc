@@ -16,7 +16,7 @@ depends=(
   'base-devel'
 )
 source=("${pkgenv}-${pkgver}.tar.gz::https://github.com/statulr/calc/archive/${pkgver}.tar.gz")
-sha256sums=('1c0baa0360b8e7e0066cf40afb0a0b40810af091c2abef790ff0dbef9eeee11b') # needs to update the sha256sum for every git archive ${pkgver} tarball from ${source}
+sha256sums=('e23db92fb24a01fa1219cfdac33ed3c6382e41d7df9c70cd9a32ee5e9e4347cd') # needs to update the sha256sum for every git archive ${pkgver} tarball from ${source}
 
 build() {
   cd ${pkgenv}-${pkgver}/src
